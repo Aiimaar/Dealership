@@ -1,18 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebebeb;
+    background-image: url(http://localhost:8000/img/jdm.jpg);
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
+.table-wrapper {
+    backdrop-filter: blur(5px);
+    width: 70%;
+    margin: 180px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
 h1 {
-    color: #333;
+    color: #ffffff;
     margin-top: 20px;
 }
 
 h2 {
-    color: #333;
+    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -23,12 +31,13 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #b4b4b4;
 }
 
 th, td {
     padding: 10px;
     text-align: center;
+    color: #ffffff;
 }
 
 th {
